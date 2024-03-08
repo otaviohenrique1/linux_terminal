@@ -1,0 +1,3 @@
+Estudos sobre terminal
+Estamos utilizando Ubuntu
+Windows ou Linux?

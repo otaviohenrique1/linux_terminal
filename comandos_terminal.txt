@@ -1,0 +1,62 @@
+pwd => retorna localização do terminal
+- exemplo => pwd
+
+ls => lista arquivos e diretorios
+- exemplo => ls
+- exemplo => ls --help => exibe a ajuda do comando ls
+- exemplo => ls -a => mostra todos os diretorios, mesmo os ocultos
+- exemplo => ls -la => mostra todos os diretorios com o nome dos seus autores
+
+cd => entra em um diretorio
+- exemplo => cd home
+- exemplo => cd 'Área de Trabalho'
+- exemplo => cd .. => volta para o diretorio anterior
+
+clear => limpa o terminal
+- exemplo => clear
+
+mkdir => criar um diretorio ou mais diretorios
+- exemplo => mkdir projetos
+- exemplo => mkdir projetos estudos
+- exemplo => mkdir 'estudos de terminal'
+
+touch => criar um arquivo ou mais arquivos
+- exemplo => touch projetos.txt
+- exemplo => touch projetos.txt estudos.txt
+
+cat => exibe o conteudo de um arquivo
+- exemplo => cat projetos.txt
+
+echo <conteudo> > <arquivo> => coloca conteudo no arquivo usando o terminal(substitui o conteudo anterior do arquivo)
+- exemplo => echo ls lista arquivos > comandos.txt
+- exemplo => echo clear - limpa a tela > comandos.txt
+
+echo <conteudo> >> <arquivo> => coloca conteudo no arquivo usando o terminal(nao substitui o conteudo anterior do arquivo, coloca em outra linha)
+- exemplo => echo ls lista arquivos >> comandos.txt
+- exemplo => echo clear - limpa a tela >> comandos.txt
+
+setas para cima e para baixo => ver o historico de comandos do terminal
+
+rm => apaga um arquivo ou mais arquivos
+- exemplo => rm exercicios.txt
+
+rmdir => apaga um diretorio ou mais diretorios
+- exemplo => rmdir exercicios
+
+mv => move um diretorio ou mais diretorios para outro lugar e tambem serve para renomear arquivos e diretorios
+- exemplo => mv exercicios.txt tarefas => mover arquivo
+- exemplo => mv exercicios.txt exercicios2.txt => renomear arquivo
+
+cp => copia um arquivo
+- exemplo => cp exercicios.txt 'estudos de terminal'
+- exemplo => cp *.txt 'estudos de terminal'
+
+vi => abre o editor de texto do terminal
+- comandos:
+  -- i => entra no modo de edição de texto
+  -- :w => salva o arquivo de texto
+  -- :w arquivo.txt => salva o arquivo de texto com o nome do arquivo
+  -- esc => sai do modo de edição de texto
+  -- :q => sai do editor de texto
+  -- vi arquivo.txt => abre o arquivo no vi
+  -- A => vai para o final da linha
