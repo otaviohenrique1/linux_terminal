@@ -60,3 +60,51 @@ vi => abre o editor de texto do terminal
   -- :q => sai do editor de texto
   -- vi arquivo.txt => abre o arquivo no vi
   -- A => vai para o final da linha
+  -- :q! => sai do editor de texto sem salvar
+  -- yy => copiar linha
+  -- p => colar linha
+  -- dd => recortar linha
+  -- :/<texto> => pesquisar termos
+  -- :s/<texto>/<novo texto> => substituir termos
+
+- wc => exibe o numero de linhas, de palavras e caracteres no arquivo
+- exemplo => wc arquivo.txt
+
+- uniq => consegue tanto mostrar as linhas que estão duplicadas como eliminar a duplicidade
+- exemplo => uniq arquivo.txt
+
+uniq -D => mostra os repetidos no arquivo
+- exemplo => uniq -D arquivo.txt
+
+uniq --help => ajuda do comando
+
+uniq -c => conta os repetidos do arquivo
+- exemplo => uniq -c arquivo.txt
+
+sort => exibe os resultados em ordem alfabetica
+- exemplo => sort arquivo.txt
+
+nano => abre o editor de texto do terminal
+- comandos:
+  ^ => ctrl
+  M => alt
+
+head -c 300 texto_java.txt => ver os 300 primeiros caracteres do arquivo
+
+tail -c 100 texto_java.txt => ver os 100 ultimos caracteres do arquivo
+
+zip backup.zip backup => criar zip de uma pasta
+
+zip -r backup.zip backup => criar zip de uma pasta com o seu conteudo
+
+less backup.zip => ver arquivos dentro do zip
+
+unzip backup.zip => extrai os arquivos zipados de um zip
+
+unzip -q backup.zip => extrai os arquivos zipados de um zip
+
+rm -r backup => remove uma pasta com o seu conteudo
+
+tar -czf backup.tar.gz backup => criar um targz de uma pasta
+
+tar -xzf backup.tar.gz => extrai os arquivos de um targz

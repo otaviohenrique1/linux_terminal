@@ -1,0 +1,16 @@
+Um pouco de História
+No longínquo ano de 1991, iniciou-se o desenvolvimento do que viria a se tornar a plataforma Java como uma parte do programa Green, que agrupava projetos que tinham como objetivo estabelecer a nova geração de softwares inteligentes para dispositivos eletrônicos, como televisores, videocassetes, torradeiras e demais utensílios, para que esses pudessem se comunicar com outros do mesmo tipo e também com computadores.
+
+Para alcançar esse objetivo, foi decidida a criação de uma plataforma que fosse portável entre diferentes tipos de equipamentos. A linguagem a ser adotada foi o C + + devido a experiência dos desenvolvedores do projeto, porém, observou-se que essa linguagem não permitia realizar de maneira fácil tudo o que eles esperavam.
+
+Neste momento, um dos líderes do projeto, James Gosling, propôs criar uma nova linguagem que pudesse atender aos requisitos esperados para o projeto e que fosse o mais simples possível. Assim, surge a linguagem Oak (em tradução livre, “Carvalho”), por ser um tipo de árvore que nascia nos arredores do escritório de Gosling. Junto à nova linguagem foi desenvolvido o sistema Green OS.
+
+Nos idos de 1993, a equipe da Sun Microsystem finalizou um protótipo de dispositivo que ficou conhecido como Star 7, ou simplesmente 7, um PDA (Personal Digital Assistant) que utilizava a nova linguagem. Então, surge a oportunidade de participação de uma concorrência pública para a criação de tecnologia interativa que fosse compatível para TV a cabo, que foi vencida pela Silicon Graphics.
+
+OK, mas e o Java? Por problemas com copyright, no ano de 1994, foi necessário trocar o nome de Oak para o seu nome definitivo: Java. Impulsionados pelo crescimento da internet, os desenvolvedores Patrick Naughton e Jonathan Payne criaram o WebRunner, um programa para o navegador com a capacidade de download e execução de código Java.
+
+Em 1995, no evento conhecido como SunWorl’95, a Sun apresenta ao mundo o navegador HotJava e a linguagem Java, que empolgou a comunidade de tecnologia da época. No ano seguinte, a gigante NetScape Corp lança a versão 2 do seu famoso navegador, o Navigator, que incorpora a funcionalidade de executar aplicações Java conhecidas como applets.
+
+Com a chegada do ano de 1996, a Sun, em uma ação até então inédita, liberou de forma gratuita para a comunidade de software um conjunto de ferramentas para desenvolvimento usando a linguagem Java. Esse conjunto foi o conhecido JDK 1.02, que tinha como foco a plataforma Sun Solaris e o Windows 95/NT.
+
+Um detalhe importante: a Sun liberou o Java e as ferramentas, mas continuou detentora dos direitos até 2009, quando a empresa foi comprada pela Oracle que continuou com a evolução da linguagem e da plataforma. Mas a aquisição da Sun não gerou impacto para os desenvolvedores Java, pois a linguagem continua gratuita e opera sob a licença GNU.
