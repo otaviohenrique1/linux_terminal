@@ -108,3 +108,15 @@ rm -r backup => remove uma pasta com o seu conteudo
 tar -czf backup.tar.gz backup => criar um targz de uma pasta
 
 tar -xzf backup.tar.gz => extrai os arquivos de um targz
+
+chmod +x bkp.sh => +x indica uma permissão de execução.
+
+export PATH=$PATH:/home/otavio_debian_linux => Adicionar variável de ambiente
+
+echo $PATH => exibir as variáveis de ambiente
+
+instalação de pacotes:
+- exemplo => sudo apt install mysql-server
+
+systemctl => gerenciador de atividades
+- exemplo => systemctl status mysql
