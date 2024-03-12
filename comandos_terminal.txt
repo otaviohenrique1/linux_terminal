@@ -8,7 +8,6 @@ ls => lista arquivos e diretorios
 - exemplo => ls -la => mostra todos os diretorios com o nome dos seus autores
 
 cd => entra em um diretorio
-- exemplo => cd home
 - exemplo => cd 'Área de Trabalho'
 - exemplo => cd .. => volta para o diretorio anterior
 
